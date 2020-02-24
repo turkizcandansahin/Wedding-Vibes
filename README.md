@@ -11,9 +11,12 @@ Advisor : Neşe Şahin Özçelik
 
 Members :
 
-Damla Anık						
-Zehra Varışlı							
+Damla Anık	
+
+Zehra Varışlı	
+
 Türkiz Candan Şahin
+
 Oğuz Kaan Durak
 
 
