@@ -15,7 +15,7 @@ if (isset($_GET["searchkey"])){
         $resultText .= "<div class=\"col-lg-12\">
                                                         <div class=\"product-wrapper mb-30 single-product-list product-list-right-pr mb-60\">
                                                             <div class=\"product-img list-img-width\">
-                                                                <a href=\"#\">
+                                                                <a href=\"productDetails.php?id=".$results["id"]."\">
                                                                     <img src=\"".$results["photoUrl"]."\" alt=\"\">
                                                                 </a>
                                                                 <div class=\"product-action-list-style\">
@@ -26,7 +26,7 @@ if (isset($_GET["searchkey"])){
                                                             </div>
                                                             <div class=\"product-content-list\">
                                                                 <div class=\"product-list-info\">
-                                                                    <h4><a href=\"#\">".$results["vendor_name"]."</a></h4>
+                                                                    <h4><a href=\"productDetails.php?id=".$results["id"]."\">".$results["vendor_name"]."</a></h4>
 
                                                                     <p>".$results["description"]."</p>
                                                                 </div>
@@ -52,7 +52,7 @@ if (isset($_GET["searchCat"])){
         $resultText .= "<div class=\"col-lg-12\">
                                                         <div class=\"product-wrapper mb-30 single-product-list product-list-right-pr mb-60\">
                                                             <div class=\"product-img list-img-width\">
-                                                                <a href=\"#\">
+                                                            <a href=\"productDetails.php?id=".$results["id"]."\">
                                                                     <img src=\"".$results["photoUrl"]."\" alt=\"\">
                                                                 </a>
                                                                 <div class=\"product-action-list-style\">
@@ -63,7 +63,7 @@ if (isset($_GET["searchCat"])){
                                                             </div>
                                                             <div class=\"product-content-list\">
                                                                 <div class=\"product-list-info\">
-                                                                    <h4><a href=\"#\">".$results["vendor_name"]."</a></h4>
+                                                                <h4><a href=\"productDetails.php?id=".$results["id"]."\">".$results["vendor_name"]."</a></h4>
 
                                                                     <p>".$results["description"]."</p>
                                                                 </div>

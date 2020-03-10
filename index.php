@@ -329,7 +329,7 @@
                                                     <div class="col-lg-12">
                                                         <div class="product-wrapper mb-30 single-product-list product-list-right-pr mb-60">
                                                             <div class="product-img list-img-width">
-                                                                <a href="#">
+                                                                <a href="productDetails.php?id=<?php echo $row["id"]?>">
                                                                     <img src="<?php echo $row["photoUrl"]?>" alt="">
                                                                 </a>
                                                                 <div class="product-action-list-style">
@@ -340,7 +340,7 @@
                                                             </div>
                                                             <div class="product-content-list">
                                                                 <div class="product-list-info">
-                                                                    <h4><a href="#"><?php echo $row["vendor_name"]?></a></h4>
+                                                                    <h4><a href="productDetails.php?id=<?php echo $row["id"]?>"><?php echo $row["vendor_name"]?></a></h4>
 
                                                                     <p><?php echo $row["description"]?></p>
                                                                 </div>
